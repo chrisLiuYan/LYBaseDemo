@@ -1,0 +1,6 @@
+framework module LYBase {
+  umbrella header "LYBase.h"
+
+  export *
+  module * { export * }
+}

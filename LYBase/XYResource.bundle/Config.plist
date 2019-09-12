@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>navigationBarTitleColor</key>
+	<string>000000</string>
+	<key>navigationBarColor</key>
+	<string>ffffff</string>
+	<key>---------OCR---------</key>
+	<string></string>
+	<key>ocr_scan_tipColor</key>
+	<string>ffffff</string>
+	<key>ocr_scan_manualColor</key>
+	<string>7cacdc</string>
+	<key>ocr_manual_tipColor</key>
+	<string>000000</string>
+	<key>---------OCR信息核验---------</key>
+	<string></string>
+	<key>ocr_result_confirmButtonTitleColor</key>
+	<string>ffffff</string>
+	<key>ocr_result_confirmButtonBGColor</key>
+	<string>7b1e21</string>
+	<key>ocr_result_restartColor</key>
+	<string>7b1e21</string>
+	<key>---------活体检测---------</key>
+	<string></string>
+	<key>live_ready_tip1Color</key>
+	<string>4a4a4a</string>
+	<key>live_ready_tip2Color</key>
+	<string>4a4a4a</string>
+	<key>live_ready_startButtonTitleColor</key>
+	<string>ffffff</string>
+	<key>live_ready_startButtonBGColor</key>
+	<string>7b1e21</string>
+	<key>live_fillLineColor</key>
+	<string>7b1e21</string>
+	<key>live_actionTipColor</key>
+	<string>000000</string>
+	<key>---------活体检测结果---------</key>
+	<string></string>
+	<key>live_result_tipColor</key>
+	<string>7b1e21</string>
+	<key>live_result_tipErrorColor</key>
+	<string>f06885</string>
+	<key>live_result_similarColor</key>
+	<string>7b1e21</string>
+	<key>live_result_buttonBGColor</key>
+	<string>7b1e21</string>
+	<key>live_result_buttonTitleColor</key>
+	<string>ffffff</string>
+</dict>
+</plist>
