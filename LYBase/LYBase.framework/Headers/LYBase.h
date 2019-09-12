@@ -17,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char LYBaseVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <LYBase/PublicHeader.h>
 
 
-#import "XYJSONUtil.h"
+//#import "XYJSONUtil.h"
+
+#import <LYBase/XYJSONUtil.h>
