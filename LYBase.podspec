@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LYBase"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Demo for Pod"
   spec.description  = <<-DESC
                              测试公有库是否发布成功，Demo for Pod，为以后pods集成做准备。仅此而已，不要再让我写了
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
   #spec.public_header_files = "LYBase/LYBase.framework/Headers/*.{h}"
 
-  spec.resources = "LYBase/XYLivenessSource.bundle","LYBase/XYResource.bundle"
+  spec.resources = "LYBase/LYLivenessSource.bundle","LYBase/LYResource.bundle"
 
 
   spec.framework  = "Foundation"
