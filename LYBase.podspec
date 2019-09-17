@@ -40,6 +40,7 @@ Pod::Spec.new do |spec|
 
   #spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.vendored_frameworks = 'LYBase/LYBase.framework'
+  spec.vendored_libraries = 'LYBase/*.a'
 
 
   spec.requires_arc = true
