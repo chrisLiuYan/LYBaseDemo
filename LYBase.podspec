@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/chrisLiuYan/LYBaseDemo.git", :tag => "#{spec.version}" }
 
-  spec.source_files  =  "LYBase/LYBaseUI/*.{h,m}","LYBase/LYBase.framework/Headers/*.{h}"
+  spec.source_files  =  "LYBase/LYBaseUI/*.{h,m}","LYBase/LYLibs/*.{h,m}","LYBase/LYBase.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "LYBase/LYBase.framework/Headers/*.{h}"
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
 
   #spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  spec.vendored_frameworks = 'LYBase/LYBase.framework'
-
+  spec.vendored_frameworks = 'LYBase/*.framework'
+  spec.vendored_libraries = 'LYBase/**/*.a'
 
   spec.requires_arc = true
 
